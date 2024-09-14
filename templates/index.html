@@ -1,0 +1,12 @@
+{{ define "index" }}
+{{ template "header"}}
+<main class="container">
+    <h1 id="main-text">{{ .MainContent }}</h1>
+    <form action="/submit" method="GET">
+      <fieldset role="group">
+        <input type="text" id="original_url" name="original_url" placeholder="Enter your original URL" required/>
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>   
+</main>
+{{ end }}

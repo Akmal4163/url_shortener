@@ -1,0 +1,23 @@
+{{ define "watch"}}
+{{ template "header"}}
+<div class="container">
+    <table>
+        <tr>
+            <td><strong>ID</strong></td>
+            <td>{{ .id }}</td>
+        </tr>
+        <tr>
+            <td><strong>Long URL</strong></td>
+            <td>{{ .long_url }}</td>
+        </tr>
+        <tr>
+            <td><strong>Shorten URL</strong></td>
+            <td>{{ .short_url }}</td>
+        </tr>
+        <tr>
+            <td><strong>Created At</strong></td>
+            <td>{{ .timestamp }}</td>
+        </tr>
+    </table>
+</div>
+{{ end }}

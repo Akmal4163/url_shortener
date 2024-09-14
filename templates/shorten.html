@@ -1,0 +1,21 @@
+{{ define "shorten" }}
+{{ template "header" }}
+<div class="container">
+    <h1>Congratulations !!! your URL has been shorted</h1>
+    <table>
+        <tr>
+            <td><strong>Long URL</strong></td>
+            <td>{{ .long_url }}</td>
+        </tr>
+        <tr>
+            <td><strong>Shorten URL</strong></td>
+            <td>{{ .short }}</td>
+        </tr>
+        <tr>
+            <td><strong>Created At</strong></td>
+            <td>{{ .created_at }}</td>
+        </tr>
+    </table>
+</div>
+
+{{ end }}
