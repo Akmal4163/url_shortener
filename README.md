@@ -13,4 +13,5 @@ TODO
 Libraries and tools used in this project :
 - Go
 - Echo Framework
+- SQLite
 - Pico CSS
