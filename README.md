@@ -1,4 +1,4 @@
-Simple URL Shortener, Written in Go
+## Simple URL Shortener, Written in Go
 
 feel free to deploy for yourself
 
